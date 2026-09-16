@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV — Erwin Juliandi Manurung | Aspiring AI Engineer</title>
+
+  <!-- Tailwind CSS v4 — Play CDN (untuk latihan/prototyping) -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- Tabler Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind v4 CSS-first config -->
+  <style type="text/tailwindcss">
+    @theme {
+      --color-brand: #0f1226;
+      --color-brand-accent: #f2a33c;
+      --font-display: "Fraunces", serif;
+      --font-body: "Inter", sans-serif;
+    }
+  </style>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .font-display { font-family: 'Fraunces', serif; }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-800">
+
+  <!-- ============ NAVBAR SEDERHANA ============ -->
+  <nav class="bg-brand text-white">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="index.html" class="font-display font-semibold text-lg">Nalar<span class="text-brand-accent">AI</span></a>
+      <div class="flex items-center gap-4 text-sm text-slate-300">
+        <a href="index.html" class="hover:text-white transition">Beranda</a>
+        <a href="blog.html" class="hover:text-white transition">Blog</a>
+        <a href="cv.html" class="text-white font-medium">CV</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="max-w-4xl mx-auto px-4 py-10">
+
+    <!-- ============ HEADER PROFIL ============ -->
+    <section class="bg-white rounded-2xl shadow-sm p-6 md:p-10 flex flex-col md:flex-row gap-6 items-center md:items-start">
+      <img src="err.jpeg" alt="Foto Ken Aditya Pratama"
+           class="w-32 h-32 rounded-full object-cover ring-4 ring-brand-accent/30" />
+
+      <div class="text-center md:text-left">
+        <h1 class="font-display text-3xl font-bold text-brand">Erwin Juliandi Manurung</h1>
+        <p class="text-brand-accent font-medium mt-1">Aspiring AI Engineer &amp; Full-Stack Developer</p>
+
+        <div class="flex flex-wrap justify-center md:justify-start gap-x-5 gap-y-2 mt-4 text-sm text-slate-600">
+          <a href="mailto:ken.aditya@example.com" class="flex items-center gap-1.5 hover:text-brand transition">
+            <i class="ti ti-mail text-base"></i> erwinmanurungg1@gmail.com
+          </a>
+          <a href="https://wa.me/6281234567890" class="flex items-center gap-1.5 hover:text-brand transition">
+            <i class="ti ti-brand-whatsapp text-base"></i> +62 852-7227-3230
+          </a>
+          <span class="flex items-center gap-1.5">
+            <i class="ti ti-map-pin text-base"></i> Balige, Sumatra Utara
+          </span>
+          <a href="https://github.com/kenaditya" class="flex items-center gap-1.5 hover:text-brand transition">
+            <i class="ti ti-brand-github text-base"></i>  github.com/erwinmanurung12
+          </a>
+          <a href="https://linkedin.com/in/kenaditya" class="flex items-center gap-1.5 hover:text-brand transition">
+            <i class="ti ti-brand-linkedin text-base"></i> linkedin.com/in/erwin-manurung
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid md:grid-cols-3 gap-6 mt-6">
+
+      <!-- ============ KOLOM KIRI ============ -->
+      <div class="md:col-span-2 flex flex-col gap-6">
+
+        <!-- Tentang -->
+        <section class="bg-white rounded-2xl shadow-sm p-6 md:p-8">
+          <h2 class="font-display text-xl font-bold text-brand mb-3">Tentang Saya</h2>
+          <p class="text-slate-600 leading-relaxed">
+            Mahasiswa Informatika dengan minat besar pada pengembangan web dan
+            penerapan kecerdasan buatan untuk masalah nyata. Terbiasa bekerja
+            dengan HTML, CSS, dan JavaScript, serta sedang memperdalam
+            integrasi model AI ke dalam aplikasi web. Senang belajar hal baru
+            dan bekerja dalam tim lintas disiplin.
+          </p>
+        </section>
+
+        <!-- Pengalaman -->
+        <section class="bg-white rounded-2xl shadow-sm p-6 md:p-8">
+          <h2 class="font-display text-xl font-bold text-brand mb-4">Pengalaman</h2>
+
+          <div class="flex gap-4 mb-5">
+            <div class="mt-1 w-2.5 h-2.5 rounded-full bg-brand-accent shrink-0"></div>
+            <div>
+              <h3 class="font-semibold text-slate-800">Frontend Developer Intern — Studi Independen</h3>
+              <p class="text-sm text-brand-accent font-medium">Feb 2026 — Jun 2026</p>
+              <p class="text-slate-600 text-sm mt-1">
+                Membangun antarmuka landing page dan dashboard internal
+                menggunakan HTML, CSS, dan Bootstrap; berkolaborasi dengan
+                tim backend melalui Git.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="mt-1 w-2.5 h-2.5 rounded-full bg-brand-accent shrink-0"></div>
+            <div>
+              <h3 class="font-semibold text-slate-800">Koordinator Divisi IT — Himpunan Mahasiswa Informatika</h3>
+              <p class="text-sm text-brand-accent font-medium">Ags 2025 — Sekarang</p>
+              <p class="text-slate-600 text-sm mt-1">
+                Mengelola situs organisasi dan mendampingi anggota baru
+                belajar dasar pengembangan web.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Proyek -->
+        <section class="bg-white rounded-2xl shadow-sm p-6 md:p-8">
+          <h2 class="font-display text-xl font-bold text-brand mb-4">Proyek &amp; Portofolio</h2>
+
+          <div class="grid sm:grid-cols-2 gap-4">
+            <a href="index.html" class="block border border-slate-200 rounded-xl p-4 hover:border-brand-accent hover:shadow-md transition">
+              <span class="text-xs font-medium text-brand-accent">Landing Page</span>
+              <h3 class="font-semibold text-slate-800 mt-1">Nalar AI — Website Jasa AI</h3>
+              <p class="text-sm text-slate-500 mt-1">Landing page perusahaan jasa AI dibangun dengan HTML &amp; CSS murni.</p>
+            </a>
+
+            <a href="blog.html" class="block border border-slate-200 rounded-xl p-4 hover:border-brand-accent hover:shadow-md transition">
+              <span class="text-xs font-medium text-brand-accent">Blog</span>
+              <h3 class="font-semibold text-slate-800 mt-1">Blog Wawasan AI</h3>
+              <p class="text-sm text-slate-500 mt-1">Halaman daftar &amp; detail artikel bertema AI menggunakan Bootstrap 5.</p>
+            </a>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- ============ KOLOM KANAN ============ -->
+      <div class="flex flex-col gap-6">
+
+        <!-- Pendidikan -->
+        <section class="bg-white rounded-2xl shadow-sm p-6">
+          <h2 class="font-display text-lg font-bold text-brand mb-3">Pendidikan</h2>
+          <div>
+            <h3 class="font-semibold text-slate-800 text-sm">S1 Informatika</h3>
+            <p class="text-sm text-slate-500">Institut Teknologi Del · 2024 — sekarang</p>
+          </div>
+        </section>
+
+        <!-- Keahlian -->
+        <section class="bg-white rounded-2xl shadow-sm p-6">
+          <h2 class="font-display text-lg font-bold text-brand mb-3">Keahlian</h2>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 text-xs font-medium rounded-full bg-brand/5 text-brand border border-brand/10">HTML</span>
+            <span class="px-3 py-1 text-xs font-medium rounded-full bg-brand/5 text-brand border border-brand/10">CSS</span>
+            <span class="px-3 py-1 text-xs font-medium rounded-full bg-brand/5 text-brand border border-brand/10">Bootstrap</span>
+            <span class="px-3 py-1 text-xs font-medium rounded-full bg-brand/5 text-brand border border-brand/10">Tailwind CSS</span>
+            <span class="px-3 py-1 text-xs font-medium rounded-full bg-brand/5 text-brand border border-brand/10">JavaScript</span>
+            <span class="px-3 py-1 text-xs font-medium rounded-full bg-brand/5 text-brand border border-brand/10">Git &amp; GitHub</span>
+            <span class="px-3 py-1 text-xs font-medium rounded-full bg-brand-accent/10 text-brand-accent border border-brand-accent/20">Dasar Python</span>
+          </div>
+        </section>
+
+        <!-- Sertifikat -->
+        <section class="bg-white rounded-2xl shadow-sm p-6">
+          <h2 class="font-display text-lg font-bold text-brand mb-3">Sertifikat</h2>
+          <ul class="space-y-3 text-sm">
+            <li class="flex items-start gap-2">
+              <i class="ti ti-certificate text-brand-accent mt-0.5"></i>
+              <span class="text-slate-600">Responsive Web Design — freeCodeCamp (2025)</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i class="ti ti-certificate text-brand-accent mt-0.5"></i>
+              <span class="text-slate-600">Dasar-dasar Kecerdasan Buatan — Coursera (2026)</span>
+            </li>
+          </ul>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="bg-brand text-slate-400 text-sm py-6 mt-10">
+    <div class="max-w-4xl mx-auto px-4 flex flex-wrap justify-between items-center gap-2">
+      <span class="font-display text-white">Nalar<span class="text-brand-accent">AI</span></span>
+      <p>&copy; 2026 Erwin Juliandi Manurung · Dibuat dengan Tailwind CSS 4</p>
+    </div>
+  </footer>
+
+</body>
+</html>
