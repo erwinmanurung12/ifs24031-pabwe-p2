@@ -18,6 +18,7 @@
     @theme {
       --color-brand: #0f1226;
       --color-brand-accent: #f2a33c;
+      --color-brand-accent-ink: #b45309; /* varian gelap untuk teks di atas bg terang, agar kontras >= 4.5:1 (WCAG AA) */
       --font-display: "Fraunces", serif;
       --font-body: "Inter", sans-serif;
     }
@@ -50,7 +51,7 @@
 
       <div class="text-center md:text-left">
         <h1 class="font-display text-3xl font-bold text-brand">Erwin Juliandi Manurung</h1>
-        <p class="text-brand-accent font-medium mt-1">Aspiring AI Engineer &amp; Full-Stack Developer</p>
+        <p class="text-brand-accent-ink font-medium mt-1">Aspiring AI Engineer &amp; Full-Stack Developer</p>
 
         <div class="flex flex-wrap justify-center md:justify-start gap-x-5 gap-y-2 mt-4 text-sm text-slate-600">
           <a href="mailto:ken.aditya@example.com" class="flex items-center gap-1.5 hover:text-brand transition">
@@ -63,7 +64,7 @@
             <i class="ti ti-map-pin text-base"></i> Balige, Sumatra Utara
           </span>
           <a href="https://github.com/kenaditya" class="flex items-center gap-1.5 hover:text-brand transition">
-            <i class="ti ti-brand-github text-base"></i>  github.com/erwinmanurung12
+            <i class="ti ti-brand-github text-base"></i> github.com/erwinmanurung12
           </a>
           <a href="https://linkedin.com/in/kenaditya" class="flex items-center gap-1.5 hover:text-brand transition">
             <i class="ti ti-brand-linkedin text-base"></i> linkedin.com/in/erwin-manurung
@@ -97,7 +98,7 @@
             <div class="mt-1 w-2.5 h-2.5 rounded-full bg-brand-accent shrink-0"></div>
             <div>
               <h3 class="font-semibold text-slate-800">Frontend Developer Intern — Studi Independen</h3>
-              <p class="text-sm text-brand-accent font-medium">Feb 2026 — Jun 2026</p>
+              <p class="text-sm text-brand-accent-ink font-medium">Feb 2026 — Jun 2026</p>
               <p class="text-slate-600 text-sm mt-1">
                 Membangun antarmuka landing page dan dashboard internal
                 menggunakan HTML, CSS, dan Bootstrap; berkolaborasi dengan
@@ -110,7 +111,7 @@
             <div class="mt-1 w-2.5 h-2.5 rounded-full bg-brand-accent shrink-0"></div>
             <div>
               <h3 class="font-semibold text-slate-800">Koordinator Divisi IT — Himpunan Mahasiswa Informatika</h3>
-              <p class="text-sm text-brand-accent font-medium">Ags 2025 — Sekarang</p>
+              <p class="text-sm text-brand-accent-ink font-medium">Ags 2025 — Sekarang</p>
               <p class="text-slate-600 text-sm mt-1">
                 Mengelola situs organisasi dan mendampingi anggota baru
                 belajar dasar pengembangan web.
@@ -125,13 +126,13 @@
 
           <div class="grid sm:grid-cols-2 gap-4">
             <a href="index.html" class="block border border-slate-200 rounded-xl p-4 hover:border-brand-accent hover:shadow-md transition">
-              <span class="text-xs font-medium text-brand-accent">Landing Page</span>
+              <span class="text-xs font-medium text-brand-accent-ink">Landing Page</span>
               <h3 class="font-semibold text-slate-800 mt-1">Nalar AI — Website Jasa AI</h3>
               <p class="text-sm text-slate-500 mt-1">Landing page perusahaan jasa AI dibangun dengan HTML &amp; CSS murni.</p>
             </a>
 
             <a href="blog.html" class="block border border-slate-200 rounded-xl p-4 hover:border-brand-accent hover:shadow-md transition">
-              <span class="text-xs font-medium text-brand-accent">Blog</span>
+              <span class="text-xs font-medium text-brand-accent-ink">Blog</span>
               <h3 class="font-semibold text-slate-800 mt-1">Blog Wawasan AI</h3>
               <p class="text-sm text-slate-500 mt-1">Halaman daftar &amp; detail artikel bertema AI menggunakan Bootstrap 5.</p>
             </a>
@@ -148,7 +149,7 @@
           <h2 class="font-display text-lg font-bold text-brand mb-3">Pendidikan</h2>
           <div>
             <h3 class="font-semibold text-slate-800 text-sm">S1 Informatika</h3>
-            <p class="text-sm text-slate-500">Institut Teknologi Del · 2024 — sekarang</p>
+            <p class="text-sm text-slate-500">Universitas Del · 2024 — sekarang</p>
           </div>
         </section>
 
@@ -162,7 +163,7 @@
             <span class="px-3 py-1 text-xs font-medium rounded-full bg-brand/5 text-brand border border-brand/10">Tailwind CSS</span>
             <span class="px-3 py-1 text-xs font-medium rounded-full bg-brand/5 text-brand border border-brand/10">JavaScript</span>
             <span class="px-3 py-1 text-xs font-medium rounded-full bg-brand/5 text-brand border border-brand/10">Git &amp; GitHub</span>
-            <span class="px-3 py-1 text-xs font-medium rounded-full bg-brand-accent/10 text-brand-accent border border-brand-accent/20">Dasar Python</span>
+            <span class="px-3 py-1 text-xs font-medium rounded-full bg-brand-accent/10 text-brand-accent-ink border border-brand-accent/20">Dasar Python</span>
           </div>
         </section>
 
@@ -171,11 +172,11 @@
           <h2 class="font-display text-lg font-bold text-brand mb-3">Sertifikat</h2>
           <ul class="space-y-3 text-sm">
             <li class="flex items-start gap-2">
-              <i class="ti ti-certificate text-brand-accent mt-0.5"></i>
+              <i class="ti ti-certificate text-brand-accent-ink mt-0.5"></i>
               <span class="text-slate-600">Responsive Web Design — freeCodeCamp (2025)</span>
             </li>
             <li class="flex items-start gap-2">
-              <i class="ti ti-certificate text-brand-accent mt-0.5"></i>
+              <i class="ti ti-certificate text-brand-accent-ink mt-0.5"></i>
               <span class="text-slate-600">Dasar-dasar Kecerdasan Buatan — Coursera (2026)</span>
             </li>
           </ul>

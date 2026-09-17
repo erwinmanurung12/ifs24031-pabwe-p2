@@ -13,6 +13,9 @@
   --color-text-muted: #9aa0c6;
   --color-accent: #f2a33c;
   --color-accent-soft: #ffd9a0;
+  /* Varian gelap dari accent, khusus dipakai sebagai warna TEKS di atas latar terang
+     (mis. kartu putih), karena #f2a33c di atas putih kontrasnya cuma ~2:1 (gagal WCAG AA 4.5:1) */
+  --color-accent-ink: #b45309;
   --color-paper: #f6f4ee;
   --color-paper-text: #1b1d2c;
 
@@ -389,7 +392,7 @@ section {
 
 .about-list li .num {
   font-family: var(--font-display);
-  color: var(--color-accent);
+  color: var(--color-accent-ink);
   font-weight: 600;
 }
 
